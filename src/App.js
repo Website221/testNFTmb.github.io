@@ -198,14 +198,13 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        style={{ padding: 24, backgroundColor: "white" }}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+        <StyledLogo alt={"logo"} src={"https://seeklogo.com/images/P/polygon-matic-logo-86F4D6D773-seeklogo.com.png"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"https://tuomodesign.store/wp-content/uploads/2020/12/tuomodesign_ethereum_3d_model_animated.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -373,7 +372,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              src={"https://tuomodesign.store/wp-content/uploads/2020/12/tuomodesign_ethereum_3d_model_animated.gif"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
@@ -384,7 +383,7 @@ function App() {
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
-              backgroundColor: "white" ;
+              backgroundColor: "white" ,
             }}
           >
             Please make sure you are connected to the right network (
