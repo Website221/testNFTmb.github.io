@@ -384,6 +384,7 @@ function App() {
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
+              backgroundColor: "white" ;
             }}
           >
             Please make sure you are connected to the right network (
